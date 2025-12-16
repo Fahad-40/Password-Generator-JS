@@ -41,7 +41,6 @@ div.password input:focus {
     outline: 2px solid #38bdf8;
 }
 
-
 .password #copyBtn {
     background-color: #38bdf8;
     color: #0f172a;
@@ -62,7 +61,6 @@ div.password button:hover {
     background-color: #0ea5e9;
 }
 
-/* RANGE SECTION */
 div.range {
     margin: 15px 0;
     display: grid;
