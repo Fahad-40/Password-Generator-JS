@@ -24,7 +24,6 @@ h1 {
 
 .password {
     display: flex;
-    /* gap: 0.5px; */
     border-radius: 10px;
     overflow: hidden;
     border: 2px solid #334155;
