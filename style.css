@@ -1,0 +1,139 @@
+/* style.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+    background: #0f172a;
+    /* Dark navy blue */
+    color: #e2e8f0;
+    /* Soft light gray */
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+}
+
+.generator {
+    background: #1e293b;
+    /* Graphite Blue */
+    width: 280px;
+    margin: 5% auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #38bdf8;
+    /* Cool Cyan */
+    margin-bottom: 20px;
+}
+
+/* PASSWORD BOX */
+.password {
+    display: flex;
+    /* gap: 0.5px; */
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #334155;
+}
+
+div.password input {
+    padding: 10px 12px;
+    background-color: #0f172a;
+    border: none;
+    color: #e2e8f0;
+    font-size: 15px;
+}
+
+div.password input:focus {
+    outline: 2px solid #38bdf8;
+}
+
+
+.password #copyBtn {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.password #togglePassword {
+    background-color: #7bcdf0;
+    color: #0f172a;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+div.password button:hover {
+    background-color: #0ea5e9;
+}
+
+/* RANGE SECTION */
+div.range {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+
+div.range span {
+    background-color: #1e40af;
+    padding: 10px;
+    margin-left: 15px;
+    min-width: 35px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+}
+
+input[type="range"] {
+    accent-color: #38bdf8;
+}
+
+/* OPTIONS */
+/* div.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+} */
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.options label {
+    display: block;
+    background-color: #334155;
+    padding: 12px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #e2e8f0;
+    transition: 0.3s;
+}
+
+div.options label:hover {
+    background-color: #475569;
+}
+
+/* GENERATE BUTTON */
+button.generate {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+button.generate:hover {
+    background-color: #0ea5e9;
+}
+
